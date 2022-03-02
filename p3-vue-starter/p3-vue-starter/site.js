@@ -1,13 +1,13 @@
 /* SITE.JS: THIS FILE CONTAINS THE METHODS/FUNCTIONS AND VARIABLES CONTROLLING YOUR SITE
-// 
+//
 */
 
 /* NOTE: MOVIES.JSON CONTAINS A LIST OF MOVIES AND ACCOMPANYING METADATA
-//    
+//
 //    They are in the following format:
 //    title (String): the name of the movie
 //    iscore (Number): the IMDB score
-//    rating (String): the movie's MPAA rating 
+//    rating (String): the movie's MPAA rating
 //    released (Array): the release date. Note that the order of the array is:  YYYY, MM, DD
 //    country (String): the country of production
 //    posters (Array): an array of String values with the URL to movie posters (in your img/ directory)
@@ -19,6 +19,10 @@
 //
 // FOR STEP 16, ADD THREE OF YOUR OWN FAVORITE MOVIES WITH METADATA TO THE END OF THE JSON FILE LIST
 */
+
+<title>"IMDB + Aaron's Top 8 Movies"</title>
+
+
 
 
 const vue_app = new Vue({
@@ -40,5 +44,3 @@ const vue_app = new Vue({
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
       }
 })
-	
-
