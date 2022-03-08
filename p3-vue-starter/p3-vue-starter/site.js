@@ -36,7 +36,7 @@ const vue_app = new Vue({
       },
       data: {
             // This holds your movies.json data.
-            movies: []
+            movies: [Shark Tale, Goodfellas, ]
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
       },
