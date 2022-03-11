@@ -36,9 +36,12 @@ const vue_app = new Vue({
       },
       data: {
             // This holds your movies.json data.
-            movies: [Shark Tale, Goodfellas, ]
+            movies: [Shark Tale, Goodfellas, ],
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            title: "IMDB + MRS> Herbert's Top 8 Movies",
+            owner: "Aaron Tolete",
+            github: ''
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
