@@ -39,7 +39,7 @@ const vue_app = new Vue({
             movies: [Shark Tale, Goodfellas, ],
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
-            title: "IMDB + MRS> Herbert's Top 8 Movies",
+            title: "IMDB + Aaron's Top 8 Movies",
             owner: "Aaron Tolete",
             github: ''
       },
